@@ -1,0 +1,44 @@
+body {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(https://th.bing.com/th/id/R.8db8598d07e68baea9ca8f6da559534e?rik=eyQaRGLcbNHbkw&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#quiz {
+  background: linear-gradient(#e3f6f5, #f0ecf8);
+  width: 30rem;
+  padding: 4rem;
+  text-align: center;
+}
+h1 {
+  color: #3f504f;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2px 0;
+}
+#question {
+  font-size: 1.3rem;
+  color: #152b29;
+}
+.button {
+  text-align: center;
+  width: 250px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: rgb(77, 155, 155);
+  color: white;
+  border-radius: 0.3em;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+  background: #4b615f;
+}
+
+#progress{
+    font-size: 18px;
+}
